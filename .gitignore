@@ -2,3 +2,4 @@ certificates/*
 logs/*log
 server_config/*conf
 server_config/*json
+kmip.db
