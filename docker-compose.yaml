@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+
+  server:
+    image: kmip_server:v1
+    restart: unless-stopped
+    container_name: kmip.server
+    volumes:
+      - ./:/app
+    ports:
+      - "5696:5696"
+    command: bash -c "python3 /app/scripts/run_server.py run"
