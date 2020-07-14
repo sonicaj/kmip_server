@@ -7,7 +7,7 @@ import pathlib
 from kmip.services.server import KmipServer
 
 
-BASE_DIR = os.path.join(pathlib.Path(__file__).parent.parent.absolute())
+BASE_DIR = pathlib.Path(__file__).parent.parent.absolute()
 CERT_BASE_PATH = os.path.join(BASE_DIR, 'certificates')
 DEFAULT_CONF = {
     'hostname': '0.0.0.0',
