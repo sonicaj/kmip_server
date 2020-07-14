@@ -2,7 +2,7 @@ version: '3.3'
 services:
 
   server:
-    image: kmip_server:v1
+    image: sonicaj/kmip_server:v1
     restart: unless-stopped
     container_name: kmip.server
     volumes:
