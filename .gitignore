@@ -1,4 +1,4 @@
-certificates/*
+certificates/*pem
 logs/*log
 server_config/*conf
 server_config/*json
