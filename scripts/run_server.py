@@ -15,7 +15,7 @@ DEFAULT_CONF = {
     'certificate_path': os.path.join(CERT_BASE_PATH, 'server_certificate.pem'),
     'key_path': os.path.join(CERT_BASE_PATH, 'server_key.pem'),
     'ca_path': os.path.join(CERT_BASE_PATH, 'root_certificate.pem'),
-    'auth_suite': 'Basic',
+    'auth_suite': 'TLS1.2',
     'database_path': os.path.join(BASE_DIR, 'kmip.db'),
     'enable_tls_client_auth': 'True',
     'tls_cipher_suites': [
